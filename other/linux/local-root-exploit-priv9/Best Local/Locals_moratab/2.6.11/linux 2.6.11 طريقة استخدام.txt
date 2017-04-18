@@ -1,0 +1,5 @@
+ÿ—Ìﬁ… «·«” Œœ«„
+2.6.9-5.EL ./k-rad3 -p 2
+2.6.9-5.ELsmp ./k-rad3 -a -p 7
+on default installed maglic linux 1.2 
+MagicLinux 2.6.9 #1 ./k-rad3 -t 1 -p 2

